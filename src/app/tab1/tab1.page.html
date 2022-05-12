@@ -1,17 +1,38 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Mais vendidos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+<ion-searchbar placeholder="Filter Schedules"></ion-searchbar>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://livrariascuritiba.vteximg.com.br/arquivos/ids/1958325-1000-1000/6ff00bbb5ae6cd15195b844027e812e0-removebg-preview.jpg?v=637484079847700000">
+  </ion-thumbnail>
+  <ion-label>Box da Saga Crepúsculo </ion-label>
+  <ion-badge color="dark">87,99</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51grtVWQzIL._SY407_BO1,204,203,200_.jpg">
+  </ion-thumbnail>
+  <ion-label>Box da Saga Harry Potter </ion-label>
+  <ion-badge color="dark">99,88</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41d3Xl4fSFS._SY498_BO1,204,203,200_.jpg">
+  </ion-thumbnail>
+  <ion-label>Box 1º Percy Jackson</ion-label>
+  <ion-badge color="dark">72,99</ion-badge>
+</ion-item>
+
 </ion-content>
